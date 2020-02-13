@@ -1,5 +1,5 @@
- import {Card} from './Card';
- class CardList {
+ import Card from './Card';
+ export default class CardList {
     constructor(selector, api) {
         this.container = document.querySelector(selector);
         this.list = [];

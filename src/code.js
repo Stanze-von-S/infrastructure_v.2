@@ -1,13 +1,13 @@
 import {configApi, Api} from './js/Api';
-// // import {Card} from './src/js/Card';
-import {CardList} from './js/CardList';
+// import {Card} from './src/js/Card';
+import CardList from './js/CardList';
 import {getProfile} from './js/functions';
-// import {Popup} from './js/Popup';
+// // import {Popup} from './js/Popup';
 // import {PopupForm} from './js/PopupForm';
-import {PopupFormPlace} from './js/PopupImage';
-import {PopupFormPlace} from './js/PopupFormPlace';
-import {PopupFormEdit} from './js/PopupFormEdit';
-import './pages/index.css';
+import PopupImage from './js/PopupImage';
+import PopupFormPlace from './js/PopupFormPlace';
+import PopupFormEdit from './js/PopupFormEdit';
+// import './pages/index.css';
 
 
 const objectApi = new Api(configApi);

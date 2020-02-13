@@ -1,3 +1,4 @@
+// import {configApi, Api} from './Api';
 export default class Card {
     constructor(name, link, obj) {
         this.name = name;

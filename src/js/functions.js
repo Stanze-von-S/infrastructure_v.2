@@ -1,3 +1,4 @@
+// import {configApi, Api} from './Api';
 function validationInput(variable) {
   if ((variable.validity.tooShort) ||
     (variable.validity.tooLong)) {
